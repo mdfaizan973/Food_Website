@@ -1,0 +1,102 @@
+.food-details {
+  display: none;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 60px !important;
+}
+
+.food-details-content img {
+  display: block; /* Ensures images don't leave extra space below */
+  max-width: 50%;
+  height: auto;
+  border-radius: 8px;
+  margin: auto;
+  margin-bottom: 10px; /* Adds some spacing between image and content */
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.food-details-content h1 {
+  margin: 10px 0; /* Adds spacing around the heading */
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.food-details-content p {
+  margin: 5px 0; /* Adds spacing around paragraphs */
+  font-size: 16px;
+  color: #555;
+}
+
+/* New CSS for the button */
+.food-details-content .add-to-cart-btn {
+  display: block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #ff5a00; /* Orange background color */
+  color: #fff; /* White text color */
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(210, 80, 24, 0.694);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.food-details-content .add-to-cart-btn:hover {
+  background-color: #ff8138; /* Lighter shade of orange on hover */
+  transform: scale(1.05); /* Slight scale up on hover */
+}
+
+.food-details-content .add-to-cart-btn:active {
+  background-color: #e64d00; /* Darker shade of orange on click */
+  transform: scale(0.95); /* Slight scale down on click */
+}
+
+@media screen and (min-width: 100px) and (max-width: 450px) {
+  .food-details-content img {
+    max-width: 100%;
+  }
+}
+/* -- */
+/* Assuming you have a separate CSS file for styling */
+
+.card-container {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(
+    5,
+    1fr
+  ); /* Create a row with five equal columns */
+  grid-gap: 20px; /* Add some space between cards */
+}
+
+.card {
+  border: none !important;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: rgba(0.6, 0, 0, 0.06) 0px 3px 5px;
+}
+
+.card img {
+  width: 100%;
+  max-height: 200px; /* Set a maximum height for the images */
+  object-fit: cover; /* Make sure the image scales and covers the entire container */
+  border-radius: 5px;
+}
+
+.card h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.card p {
+  color: #666;
+}
