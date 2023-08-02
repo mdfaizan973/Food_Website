@@ -1,6 +1,6 @@
-const loginform = document.querySelector("form");
+const registerform = document.querySelector("form");
 const new_users = JSON.parse(localStorage.getItem("food_users")) || [];
-loginform.addEventListener("submit", function (event) {
+registerform.addEventListener("submit", function (event) {
   event.preventDefault();
 
   const username = document.querySelector("#username").value;
@@ -35,5 +35,9 @@ loginform.addEventListener("submit", function (event) {
         "success"
       );
     }, 1200);
+
+    setTimeout(() => {
+      window.location.href = "../index.html";
+    }, 2200);
   }
 });
