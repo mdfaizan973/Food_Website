@@ -11,7 +11,6 @@ const currentuser = sessionStorage.getItem("cur_user_email");
 const user_name = document.querySelector("#user_name");
 
 let sortname = currentuser.replace(/\@gmail\.com$/, "");
-
 user_name.innerHTML = sortname;
 
 handleredtolog.addEventListener("click", function () {
