@@ -1,0 +1,32 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+/* Footer styles */
+.footer {
+  background-color: #f7f7f7;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 40px 0;
+}
+
+.footer h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #777;
+  font-size: 24px;
+}
+
+.social-links a:hover {
+  color: #e52d27;
+}

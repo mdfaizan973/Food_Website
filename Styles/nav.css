@@ -1,0 +1,40 @@
+/* nav css */
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #000;
+}
+.nav-link {
+  color: #000;
+}
+.nav-link:hover {
+  color: #316da9;
+}
+.search-form {
+  position: relative;
+}
+.search-form input {
+  width: 300px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px;
+}
+.search-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #316da9;
+  cursor: pointer;
+}
+.user-icon,
+.cart-icon,
+.chat-icon {
+  color: #316da9;
+  margin-left: 10px;
+  cursor: pointer;
+}
