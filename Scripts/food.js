@@ -167,64 +167,6 @@ const products = [
     cate: "chickenBucket",
   },
   {
-    id: 23,
-    quantity: 1,
-    images:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/L-120180.jpg?ver=22.01",
-    name: "Big 8 - Chicken Bucket",
-    type: "Non veg",
-    price: 579.05,
-    description:
-      "Save upto 31% with this bucket that has 4 pieces of Hot & Crispy and 4...",
-    cate: "chickenBucket",
-  },
-  {
-    id: 24,
-    quantity: 1,
-    images:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/L-8000172.jpg?ver=22.01",
-    name: "Dips Bucket",
-    type: "Non veg",
-    price: 389.52,
-    description: "8 Peri Peri Strips with 2 Dips!",
-    cate: "chickenBucket",
-  },
-  {
-    id: 25,
-    quantity: 1,
-    images:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/L-404002.jpg?ver=22.01",
-    name: "5pc Smoky Red with 2 Pepsi",
-    type: "Non veg",
-    price: 439.05,
-    description: "5 pieces of Colonel's signature Smoky Red with 2 Pepsi",
-    cate: "chickenBucket",
-  },
-  {
-    id: 26,
-    quantity: 1,
-    images:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/L-120187.jpg?ver=22.01",
-    name: "Grilled Chicken - Smoky Red-5 pc",
-    type: "Non veg",
-    price: 428.57,
-    description: "5 pieces of Colonel's signature Smoky Red",
-    cate: "chickenBucket",
-  },
-  {
-    id: 27,
-    quantity: 1,
-    images:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/L-100010.jpg?ver=22.01",
-    name: "Hot & Crispy Chicken-4pc",
-    type: "Non veg",
-    price: 399.05,
-    description:
-      "Ask for four more! 4 pieces of Colonel's signature Hot & Crispy...",
-    cate: "chickenBucket",
-  },
-
-  {
     id: 28,
     quantity: 1,
     images:
@@ -462,242 +404,6 @@ const products = [
     cate: "burgers",
   },
   {
-    id: 48,
-    quantity: 1,
-    images:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-110212.jpg?ver=22.01",
-    name: "Zinger, Wings and Pepsi combo",
-    type: "Non veg",
-    price: 402.86,
-    description: "Relish the Classic Zinger with 4 pieces Hot Wings and Pepsi",
-    cate: "burgers",
-  },
-  {
-    id: 49,
-    quantity: 1,
-    images:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-404007.jpg?ver=22.01",
-    name: "Zinger & Popcorn combo",
-    type: "Non veg",
-    price: 378.1,
-    description: "Relish the Classic Zinger with a large popcorn",
-    cate: "burgers",
-  },
-  {
-    id: 50,
-    quantity: 1,
-    images:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-404010.jpg?ver=22.01",
-    name: "Zinger, Fries & Pepsi combo",
-    type: "Non veg",
-    price: 298.1,
-    description: "The Classic Zinger meal served with fries and Pepsi",
-    cate: "burgers",
-  },
-  {
-    id: 51,
-    quantity: 1,
-    images:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-110003.jpg?ver=22.01",
-    name: "Veg Zinger",
-    type: "Veg",
-    price: 168.57,
-    description:
-      "Signature veg burger with crispy patties, veggies & a tangy sauce",
-    cate: "burgers",
-  },
-  {
-    id: 52,
-    quantity: 1,
-    images:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-404028.jpg?ver=22.01",
-    name: "Tandoori Zinger & Popcorn combo",
-    type: "Non veg",
-    price: 387.62,
-    description: "Relish the Tandoori Zinger with large Popcorn",
-    cate: "burgers",
-  },
-  {
-    id: 53,
-    quantity: 1,
-    images:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-110201.jpg?ver=22.01",
-    name: "Chicken Zinger Burger - Classic",
-    type: "Non veg",
-    price: 179.05,
-    description:
-      "Signature chicken burger made with a crunchy chicken fillet, veggies & a delicious mayo sauce",
-    cate: "burgers",
-  },
-  {
-    id: 54,
-    quantity: 1,
-    images:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-404029.jpg?ver=22.01",
-    name: "Tandoori Zinger, Fries & Pepsi combo",
-    type: "Non veg",
-    price: 307.62,
-    description: "The Tandoori Zinger meal served with fries and Pepsi",
-    cate: "burgers",
-  },
-
-  {
-    id: 55,
-    quantity: 1,
-    images:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-404015.jpg?ver=22.01",
-    name: "Veg Zinger, Fries & Pepsi combo",
-    type: "Veg",
-    price: 268.57,
-    description: "The Veg Zinger meal served with fries and Pepsi",
-    cate: "burgers",
-  },
-  {
-    id: 56,
-    quantity: 1,
-    images:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-404027.jpg?ver=22.01",
-    name: "Chicken Zinger Burger - Tandoori",
-    type: "Non veg",
-    price: 188.57,
-    description: "Chicken zinger with a delicious tandoori sauce",
-    cate: "burgers",
-  },
-
-  {
-    id: 57,
-    quantity: 1,
-    images:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000038.jpg?ver=22.01",
-    name: "Classic Chicken Biryani Bucket + Reg Pepsi",
-    type: "Non veg",
-    price: 248.57,
-    description:
-      "New flavorful Biryani rice with Hot & Crispy chicken served with a spicy gravy & Pepsi",
-    cate: "biryaniBuckets",
-  },
-  {
-    id: 58,
-    quantity: 1,
-    images:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000039.jpg?ver=22.01",
-    name: "Popcorn Chicken Biryani Bucket + Reg Pepsi",
-    type: "Non veg",
-    price: 248.57,
-    description:
-      "New flavorful Biryani rice with Popcorn chicken served with a spicy gravy & Pepsi",
-    cate: "biryaniBuckets",
-  },
-  {
-    id: 59,
-    quantity: 1,
-    images:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000040.jpg?ver=22.01",
-    name: "Grilled Chicken Biryani Bucket + Reg Pepsi",
-    type: "Non veg",
-    price: 248.57,
-    description:
-      "New flavorful Biryani rice with Grilled chicken served with a spicy gravy & Pepsi",
-    cate: "biryaniBuckets",
-  },
-  {
-    id: 60,
-    quantity: 1,
-    images:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000037.jpg?ver=22.01",
-    name: "Veg Biryani Bucket + Reg Pepsi",
-    type: "Veg",
-    price: 219.05,
-    description:
-      "New flavorful Biryani rice with Veg Patty served with a spicy gravy & Pepsi",
-    cate: "biryaniBuckets",
-  },
-  {
-    id: 61,
-    quantity: 1,
-    images:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000024.jpg?ver=22.01",
-    name: "Classic Chicken Biryani Bucket",
-    type: "Non veg",
-    price: 208.57,
-    description:
-      "New flavorful Biryani rice with Hot & Crispy chicken served with a spicy gravy",
-    cate: "biryaniBuckets",
-  },
-  {
-    id: 62,
-    quantity: 1,
-    images:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000025.jpg?ver=22.01",
-    name: "Popcorn Chicken Biryani Bucket",
-    type: "Non veg",
-    price: 208.57,
-    description:
-      "New flavorful Biryani rice with Popcorn chicken served with a spicy gravy",
-    cate: "biryaniBuckets",
-  },
-  {
-    id: 63,
-    quantity: 1,
-    images:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000026.jpg?ver=22.01",
-    name: "Smoky Grilled Chicken Biryani Bucket",
-    type: "Non veg",
-    price: 208.57,
-    description:
-      "New flavorful Biryani rice with Grilled chicken served with a spicy gravy",
-    cate: "biryaniBuckets",
-  },
-  {
-    id: 64,
-    quantity: 1,
-    images:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000027.jpg?ver=22.01",
-    name: "Veg Biryani Bucket",
-    type: "Veg",
-    price: 168.57,
-    description:
-      "New flavorful Biryani rice with Veg Patty served with a spicy gravy",
-    cate: "biryaniBuckets",
-  },
-  {
-    id: 65,
-    quantity: 1,
-    images:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000028.jpg?ver=22.01",
-    name: "Classic Chicken Biryani Bucket-Large",
-    type: "Non veg",
-    price: 428.57,
-    description:
-      "New flavorful Biryani rice with 2 Hot & Crispy chicken pieces served with a spicy gravy",
-    cate: "biryaniBuckets",
-  },
-  {
-    id: 66,
-    quantity: 1,
-    images:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000029.jpg?ver=22.01",
-    name: "Popcorn Chicken Biryani Bucket -Large",
-    type: "Non veg",
-    price: 428.57,
-    description:
-      "New flavorful Biryani rice with Popcorn chicken served with a spicy gravy",
-    cate: "biryaniBuckets",
-  },
-
-  {
-    id: 67,
-    quantity: 1,
-    images:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000211.jpg?ver=22.01",
-    name: "Solo Feast",
-    type: "Non veg",
-    price: 328.57,
-    description:
-      "Relish a feast of KFC favorites packed with 1 H&C, 2 Strips,2 Hot Wings, Buttered Bun,spicy signature nashville dip & 1 regular pepsi",
-    cate: "snack",
-  },
-  {
     id: 68,
     quantity: 1,
     images:
@@ -855,6 +561,299 @@ const products = [
     description: "Refereshing beverage",
     cate: "beveragesAndDesserts",
   },
+  {
+    id: 48,
+    quantity: 1,
+    images:
+      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-110212.jpg?ver=22.01",
+    name: "Zinger, Wings and Pepsi combo",
+    type: "Non veg",
+    price: 402.86,
+    description: "Relish the Classic Zinger with 4 pieces Hot Wings and Pepsi",
+    cate: "burgers",
+  },
+  {
+    id: 49,
+    quantity: 1,
+    images:
+      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-404007.jpg?ver=22.01",
+    name: "Zinger & Popcorn combo",
+    type: "Non veg",
+    price: 378.1,
+    description: "Relish the Classic Zinger with a large popcorn",
+    cate: "burgers",
+  },
+  {
+    id: 50,
+    quantity: 1,
+    images:
+      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-404010.jpg?ver=22.01",
+    name: "Zinger, Fries & Pepsi combo",
+    type: "Non veg",
+    price: 298.1,
+    description: "The Classic Zinger meal served with fries and Pepsi",
+    cate: "burgers",
+  },
+  {
+    id: 51,
+    quantity: 1,
+    images:
+      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-110003.jpg?ver=22.01",
+    name: "Veg Zinger",
+    type: "Veg",
+    price: 168.57,
+    description:
+      "Signature veg burger with crispy patties, veggies & a tangy sauce",
+    cate: "burgers",
+  },
+  {
+    id: 52,
+    quantity: 1,
+    images:
+      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-404028.jpg?ver=22.01",
+    name: "Tandoori Zinger & Popcorn combo",
+    type: "Non veg",
+    price: 387.62,
+    description: "Relish the Tandoori Zinger with large Popcorn",
+    cate: "burgers",
+  },
+  {
+    id: 53,
+    quantity: 1,
+    images:
+      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-110201.jpg?ver=22.01",
+    name: "Chicken Zinger Burger - Classic",
+    type: "Non veg",
+    price: 179.05,
+    description:
+      "Signature chicken burger made with a crunchy chicken fillet, veggies & a delicious mayo sauce",
+    cate: "burgers",
+  },
+  {
+    id: 54,
+    quantity: 1,
+    images:
+      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-404029.jpg?ver=22.01",
+    name: "Tandoori Zinger, Fries & Pepsi combo",
+    type: "Non veg",
+    price: 307.62,
+    description: "The Tandoori Zinger meal served with fries and Pepsi",
+    cate: "burgers",
+  },
+  {
+    id: 23,
+    quantity: 1,
+    images:
+      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/L-120180.jpg?ver=22.01",
+    name: "Big 8 - Chicken Bucket",
+    type: "Non veg",
+    price: 579.05,
+    description:
+      "Save upto 31% with this bucket that has 4 pieces of Hot & Crispy and 4...",
+    cate: "chickenBucket",
+  },
+  {
+    id: 24,
+    quantity: 1,
+    images:
+      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/L-8000172.jpg?ver=22.01",
+    name: "Dips Bucket",
+    type: "Non veg",
+    price: 389.52,
+    description: "8 Peri Peri Strips with 2 Dips!",
+    cate: "chickenBucket",
+  },
+  {
+    id: 25,
+    quantity: 1,
+    images:
+      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/L-404002.jpg?ver=22.01",
+    name: "5pc Smoky Red with 2 Pepsi",
+    type: "Non veg",
+    price: 439.05,
+    description: "5 pieces of Colonel's signature Smoky Red with 2 Pepsi",
+    cate: "chickenBucket",
+  },
+  {
+    id: 26,
+    quantity: 1,
+    images:
+      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/L-120187.jpg?ver=22.01",
+    name: "Grilled Chicken - Smoky Red-5 pc",
+    type: "Non veg",
+    price: 428.57,
+    description: "5 pieces of Colonel's signature Smoky Red",
+    cate: "chickenBucket",
+  },
+  {
+    id: 27,
+    quantity: 1,
+    images:
+      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/L-100010.jpg?ver=22.01",
+    name: "Hot & Crispy Chicken-4pc",
+    type: "Non veg",
+    price: 399.05,
+    description:
+      "Ask for four more! 4 pieces of Colonel's signature Hot & Crispy...",
+    cate: "chickenBucket",
+  },
+  {
+    id: 55,
+    quantity: 1,
+    images:
+      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-404015.jpg?ver=22.01",
+    name: "Veg Zinger, Fries & Pepsi combo",
+    type: "Veg",
+    price: 268.57,
+    description: "The Veg Zinger meal served with fries and Pepsi",
+    cate: "burgers",
+  },
+  {
+    id: 56,
+    quantity: 1,
+    images:
+      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-404027.jpg?ver=22.01",
+    name: "Chicken Zinger Burger - Tandoori",
+    type: "Non veg",
+    price: 188.57,
+    description: "Chicken zinger with a delicious tandoori sauce",
+    cate: "burgers",
+  },
+
+  {
+    id: 57,
+    quantity: 1,
+    images:
+      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000038.jpg?ver=22.01",
+    name: "Classic Chicken Biryani Bucket + Reg Pepsi",
+    type: "Non veg",
+    price: 248.57,
+    description:
+      "New flavorful Biryani rice with Hot & Crispy chicken served with a spicy gravy & Pepsi",
+    cate: "biryaniBuckets",
+  },
+  {
+    id: 58,
+    quantity: 1,
+    images:
+      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000039.jpg?ver=22.01",
+    name: "Popcorn Chicken Biryani Bucket + Reg Pepsi",
+    type: "Non veg",
+    price: 248.57,
+    description:
+      "New flavorful Biryani rice with Popcorn chicken served with a spicy gravy & Pepsi",
+    cate: "biryaniBuckets",
+  },
+  {
+    id: 59,
+    quantity: 1,
+    images:
+      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000040.jpg?ver=22.01",
+    name: "Grilled Chicken Biryani Bucket + Reg Pepsi",
+    type: "Non veg",
+    price: 248.57,
+    description:
+      "New flavorful Biryani rice with Grilled chicken served with a spicy gravy & Pepsi",
+    cate: "biryaniBuckets",
+  },
+  {
+    id: 60,
+    quantity: 1,
+    images:
+      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000037.jpg?ver=22.01",
+    name: "Veg Biryani Bucket + Reg Pepsi",
+    type: "Veg",
+    price: 219.05,
+    description:
+      "New flavorful Biryani rice with Veg Patty served with a spicy gravy & Pepsi",
+    cate: "biryaniBuckets",
+  },
+  {
+    id: 61,
+    quantity: 1,
+    images:
+      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000024.jpg?ver=22.01",
+    name: "Classic Chicken Biryani Bucket",
+    type: "Non veg",
+    price: 208.57,
+    description:
+      "New flavorful Biryani rice with Hot & Crispy chicken served with a spicy gravy",
+    cate: "biryaniBuckets",
+  },
+  {
+    id: 62,
+    quantity: 1,
+    images:
+      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000025.jpg?ver=22.01",
+    name: "Popcorn Chicken Biryani Bucket",
+    type: "Non veg",
+    price: 208.57,
+    description:
+      "New flavorful Biryani rice with Popcorn chicken served with a spicy gravy",
+    cate: "biryaniBuckets",
+  },
+  {
+    id: 63,
+    quantity: 1,
+    images:
+      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000026.jpg?ver=22.01",
+    name: "Smoky Grilled Chicken Biryani Bucket",
+    type: "Non veg",
+    price: 208.57,
+    description:
+      "New flavorful Biryani rice with Grilled chicken served with a spicy gravy",
+    cate: "biryaniBuckets",
+  },
+  {
+    id: 64,
+    quantity: 1,
+    images:
+      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000027.jpg?ver=22.01",
+    name: "Veg Biryani Bucket",
+    type: "Veg",
+    price: 168.57,
+    description:
+      "New flavorful Biryani rice with Veg Patty served with a spicy gravy",
+    cate: "biryaniBuckets",
+  },
+  {
+    id: 65,
+    quantity: 1,
+    images:
+      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000028.jpg?ver=22.01",
+    name: "Classic Chicken Biryani Bucket-Large",
+    type: "Non veg",
+    price: 428.57,
+    description:
+      "New flavorful Biryani rice with 2 Hot & Crispy chicken pieces served with a spicy gravy",
+    cate: "biryaniBuckets",
+  },
+  {
+    id: 66,
+    quantity: 1,
+    images:
+      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000029.jpg?ver=22.01",
+    name: "Popcorn Chicken Biryani Bucket -Large",
+    type: "Non veg",
+    price: 428.57,
+    description:
+      "New flavorful Biryani rice with Popcorn chicken served with a spicy gravy",
+    cate: "biryaniBuckets",
+  },
+
+  {
+    id: 67,
+    quantity: 1,
+    images:
+      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000211.jpg?ver=22.01",
+    name: "Solo Feast",
+    type: "Non veg",
+    price: 328.57,
+    description:
+      "Relish a feast of KFC favorites packed with 1 H&C, 2 Strips,2 Hot Wings, Buttered Bun,spicy signature nashville dip & 1 regular pepsi",
+    cate: "snack",
+  },
+
   {
     id: 82,
     quantity: 1,
