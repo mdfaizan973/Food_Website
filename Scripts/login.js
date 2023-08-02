@@ -6,7 +6,6 @@ loginform.addEventListener("submit", function (event) {
 
   const email = document.querySelector("#email").value;
   const pass = document.querySelector("#pass").value;
-
   const matchedUser = new_users.find(
     (user) => user.email === email && user.pass === pass
   );
@@ -24,6 +23,7 @@ loginform.addEventListener("submit", function (event) {
     });
     return;
   } else if (matchedUser) {
+    sessionStorage.setItem("cur_user_email", email);
     setTimeout(() => {
       swal(`${email}`, `Login successful!`, "success");
     }, 1500);
@@ -33,7 +33,7 @@ loginform.addEventListener("submit", function (event) {
     }, 2500);
   } else {
     setTimeout(() => {
-      swal(`${email}`, `Login failed. Incorrect email or password.y`, "error");
+      swal(`${email}`, `Login failed. Incorrect email or password.`, "error");
     }, 1500);
   }
 });

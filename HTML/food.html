@@ -25,57 +25,58 @@
 
     <!-- ---Navbar--- -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <a class="navbar-brand" href="../HTML/landing_home.html">
-          <img
-            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAeCAYAAAB5c901AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABNSURBVHgB7c9BDQAgAMPAgQ4c4F8KDvABFuBHSe+9LGmZ6SsXWkY52b3yW/M5A+kMpDOQzkA6A+kMpDOQzkA6A+kMpDOQzkA6A+kMpNu9MQhKmC+cDgAAAABJRU5ErkJggg=="
-            alt=""
+      <a class="navbar-brand" href="../HTML/landing_home.html">
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAeCAYAAAB5c901AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABNSURBVHgB7c9BDQAgAMPAgQ4c4F8KDvABFuBHSe+9LGmZ6SsXWkY52b3yW/M5A+kMpDOQzkA6A+kMpDOQzkA6A+kMpDOQzkA6A+kMpNu9MQhKmC+cDgAAAABJRU5ErkJggg=="
+          alt=""
+        />
+        Fc Food</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"><i class="fas fa-hamburger"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-pizza-slice"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-cookie-bite"></i></a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 search-form">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
           />
-          Fc Food</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"><i class="fas fa-hamburger"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fas fa-pizza-slice"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fas fa-cookie-bite"></i></a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0 search-form">
-            <input
-              class="form-control mr-sm-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <i class="fas fa-search search-icon"></i>
-          </form>
-          <a href="../index.html">
-            <i class="fas fa-sign-out-alt"></i>
-            <span>Logout</span>
-          </a>
-  
-          <a href="../HTML/cart.html">
-            <i class="fas fa-shopping-cart cart-icon"
-              ><span id="total-cart-item">0</span></i
-            >
-          </a>
-        </div>
-      </nav>
+          <i class="fas fa-search search-icon"></i>
+        </form>
+        <a href="../index.html" id="handleredtolog">
+          <i class="fas fa-sign-out-alt"></i>
+          <span>
+            <span id="user_name">Login</span>
+          </span>
+        </a>
+        <a href="../HTML/cart.html">
+          <i class="fas fa-shopping-cart cart-icon"
+            ><span id="total-cart-item">0</span></i
+          >
+        </a>
+      </div>
+    </nav>
     <!-- ---- -->
 
     <!-- <div class="food-grid"></div> -->
@@ -145,4 +146,5 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 
