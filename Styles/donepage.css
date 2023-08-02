@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(253, 253, 253);
+}
+#done_payment {
+  text-align: center;
+}
+
+button {
+  border: none;
+  background-color: #f8f9fa;
+  font-weight: 700;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Styles/nav.css" /> 
+    <link rel="stylesheet" href="../Styles/footer.css">
+    <link rel="stylesheet" href="../Styles/food.css" />
+   
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- Add Font Awesome CSS link here -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div>
+
+
+    <!-- ---Navbar--- -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <a class="navbar-brand" href="../HTML/landing_home.html">
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAeCAYAAAB5c901AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABNSURBVHgB7c9BDQAgAMPAgQ4c4F8KDvABFuBHSe+9LGmZ6SsXWkY52b3yW/M5A+kMpDOQzkA6A+kMpDOQzkA6A+kMpDOQzkA6A+kMpNu9MQhKmC+cDgAAAABJRU5ErkJggg=="
+          alt=""
+        />
+        Fc Food</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"><i class="fas fa-hamburger"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-pizza-slice"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-cookie-bite"></i></a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 search-form">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <i class="fas fa-search search-icon"></i>
+        </form>
+        <a href="../index.html" id="handleredtolog">
+          <i class="fas fa-sign-out-alt"></i>
+          <span>
+            <span id="user_name">Login</span>
+          </span>
+        </a>
+        <a href="../HTML/cart.html">
+          <i class="fas fa-shopping-cart cart-icon"
+            ><span id="total-cart-item">0</span></i
+          >
+        </a>
+      </div>
+    </nav>
+    <!-- ---- -->
+
+    <!-- <div class="food-grid"></div> -->
+    <div class="main-container">
+      <div class="sidebar">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAeCAYAAAB5c901AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABNSURBVHgB7c9BDQAgAMPAgQ4c4F8KDvABFuBHSe+9LGmZ6SsXWkY52b3yW/M5A+kMpDOQzkA6A+kMpDOQzkA6A+kMpDOQzkA6A+kMpNu9MQhKmC+cDgAAAABJRU5ErkJggg==" alt="">
+
+        <hr>
+        
+        <ul>
+          <li><a id="lowtohigh">₹ Low-to-High </a></li>
+          <li><a id="hightolow">₹ High-to-Low </a></li>
+          <hr>
+          <li><a id="hotDeals">Hot Deals</a></li>
+          <li><a id="burger">Burger</a></li>
+          <li><a id="biryani">Biryani</a></li>
+          <li><a id="chicken">Chicken</a></li>
+          <li><a id="fries">Fries</a></li>
+          <li><a id="chococake">Choco + Cake</a></li>
+          <li><a id="drinks">Cold Drink</a></li> 
+          <hr>
+          <li><a id="veg">Veg</a></li> 
+          <li><a id="nonveg">Non-Veg</a></li> 
+        </ul>
+        
+      </div>
+  
+      <div class="content">
+        <div class="food-grid"></div>
+        <!-- Main content of the website goes here -->
+        <!-- The "food-grid" container will be present in the content area -->
+        
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3>About Us</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              dapibus libero nec dui vehicula, quis euismod quam laoreet.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h3>Contact Us</h3>
+            <p>Email: info@example.com</p>
+            <p>Phone: +1 123 456 7890</p>
+            <p>Address: 1234 Main St, City, Country</p>
+          </div>
+          <div class="col-md-4">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
+<script src="../Scripts/food.js" ></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Styles/footer.css" />
+    <link rel="stylesheet" href="../Styles/landing_home.css" />
+    <link rel="stylesheet" href="../Styles/nav.css" />
+    <title>Delicious Food Website</title>
+    <!-- Add Bootstrap CSS link here -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- Add Font Awesome CSS link here -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- carousal link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- -- -->
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <a class="navbar-brand" href="../HTML/landing_home.html">
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAeCAYAAAB5c901AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABNSURBVHgB7c9BDQAgAMPAgQ4c4F8KDvABFuBHSe+9LGmZ6SsXWkY52b3yW/M5A+kMpDOQzkA6A+kMpDOQzkA6A+kMpDOQzkA6A+kMpNu9MQhKmC+cDgAAAABJRU5ErkJggg=="
+          alt=""
+        />
+        Fc Food</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"><i class="fas fa-hamburger"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-pizza-slice"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-cookie-bite"></i></a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 search-form">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <i class="fas fa-search search-icon"></i>
+        </form>
+        <a href="../index.html" id="handleredtolog">
+          <i class="fas fa-sign-out-alt"></i>
+          <span>
+            <span id="user_name">Login</span>
+          </span>
+        </a>
+        <a href="../HTML/cart.html">
+          <i class="fas fa-shopping-cart cart-icon"
+            ><span id="total-cart-item">0</span></i
+          >
+        </a>
+      </div>
+    </nav>
+
+    <!-- ---------------------------***----***--------------------------------- -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            class="d-block w-100"
+            src="https://images.ctfassets.net/wtodlh47qxpt/2cKs5e17FbKIE7Dza5ZlNM/e7163ee02d91d59d81a20ecf606f707b/Biryani_Banner_1440x396px.jpg?w=1366&fit=fill&fm=webp"
+            alt="First slide"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="https://images.ctfassets.net/wtodlh47qxpt/500GRYvL6xfLzNRY68rr4u/c66030e22aa477594939c55281fc00fd/variety_bucket_banner_1440x396px.jpg?w=1366&fit=fill&fm=webp"
+            alt="Second slide"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="https://images.ctfassets.net/wtodlh47qxpt/Na9oR4t8WKmSjIuy5pg4U/2fef58b44c29bbb4341ed116bac84f44/KFC_Maggi__Banner__1440x396px__2_.jpg?w=988&fit=fill&fm=webp"
+            alt="Third slide"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="https://images.ctfassets.net/wtodlh47qxpt/5477Y6AToWWjDUgchkqn5l/644a80e35a990d1bee592811b278fddd/Wedmesday_banner_1440x396px.jpg?w=988&fit=fill&fm=webp"
+            alt="fourth slide"
+          />
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!-- Sections -->
+
+    <section id="home" class="section bg-light">
+      <div class="container position-relative">
+        <div class="row">
+          <div class="banner-item fiest-s">
+            <div class="banner-overlay">
+              <h1 class="banner-heading">Tasty Biryani</h1>
+              <p class="banner-subheading">Delicious Biryani served fresh</p>
+            </div>
+            <img
+              src="https://images.pexels.com/photos/718742/pexels-photo-718742.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Biryani Banner"
+              class="banner_image"
+            />
+          </div>
+
+          <div class="banner-item fiest-s">
+            <div class="banner-overlay">
+              <h1 class="banner-heading">Tasty Biryani</h1>
+              <p class="banner-subheading">Delicious Biryani served fresh</p>
+            </div>
+            <img
+              src="https://images.pexels.com/photos/3023479/pexels-photo-3023479.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Biryani Banner"
+              class="banner_image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="banner-container">
+      <div class="banner-item">
+        <div class="banner-overlay">
+          <h1 class="banner-heading">Tasty Biryani</h1>
+          <p class="banner-subheading">Delicious Biryani served fresh</p>
+        </div>
+        <img
+          src="https://images.ctfassets.net/wtodlh47qxpt/2cKs5e17FbKIE7Dza5ZlNM/e7163ee02d91d59d81a20ecf606f707b/Biryani_Banner_1440x396px.jpg?w=1366&fit=fill&fm=webp"
+          alt="Biryani Banner"
+          class="banner-image"
+        />
+      </div>
+
+      <div class="banner-item">
+        <div class="banner-overlay">
+          <h1 class="banner-heading">Crispy Fried Chicken</h1>
+          <p class="banner-subheading">
+            Irresistible chicken that melts in your mouth
+          </p>
+        </div>
+        <img
+          src="https://images.ctfassets.net/wtodlh47qxpt/500GRYvL6xfLzNRY68rr4u/c66030e22aa477594939c55281fc00fd/variety_bucket_banner_1440x396px.jpg?w=1366&fit=fill&fm=webp"
+          alt="Chicken Banner"
+          class="banner-image"
+        />
+      </div>
+    </div>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-6">
+            <img
+              src="https://i.pinimg.com/originals/f3/86/a5/f386a500e5945cc7c98e937ad7fbca6e.gif"
+              alt="Pizza"
+              class="about-image"
+            />
+          </div>
+          <div class="col-md-6 section-content text-center">
+            <h2 class="section-heading">Yummy Bites</h2>
+            <p class="section-text">
+              Indulge in our authentic and scrumptious pizzas, baked to
+              perfection in a wood-fired oven. Our pizzas will leave you craving
+              for more.
+            </p>
+            <a href="./food.html" class="btn-view-custom">BUY</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- grid 8 data -->
+    <div id="TastyTreatsHub">
+      <h1>Tasty Treats Hub</h1>
+    </div>
+    <section id="hotDeals" class="section bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-3 mb-4">
+            <div class="card position-relative">
+              <a href="./food.html">
+                <img
+                  src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT115.jpg?ver=21.88"
+                  alt="Hot Deals"
+                  class="card-img-top"
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title">Bucket Meal</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card position-relative">
+              <a href="./food.html">
+                <img
+                  src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT175.jpg?ver=21.88"
+                  alt="Hot Deals"
+                  class="card-img-top"
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title">Wings</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card position-relative">
+              <a href="./food.html">
+                <img
+                  src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT201.jpg?ver=21.88"
+                  alt="Hot Deals"
+                  class="card-img-top"
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title">HOT LAUNCHES</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card position-relative">
+              <a href="./food.html">
+                <img
+                  src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT84.jpg?ver=21.88"
+                  alt="Hot Deals"
+                  class="card-img-top"
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title">Wraps</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card position-relative">
+              <a href="./food.html">
+                <img
+                  src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/L-8000223.jpg?ver=22.01"
+                  alt="Hot Deals"
+                  class="card-img-top"
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title">Beverages</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card position-relative">
+              <a href="./food.html">
+                <img
+                  src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT189.jpg?ver=21.88"
+                  alt="Hot Deals"
+                  class="card-img-top"
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title">Rice & Gravy</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card position-relative">
+              <a href="./food.html">
+                <img
+                  src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT116.jpg?ver=21.88"
+                  alt="Hot Deals"
+                  class="card-img-top"
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title">Chicken Bucket</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="card position-relative">
+              <a href="./food.html">
+                <img
+                  src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT99.jpg?ver=21.88"
+                  alt="Hot Deals"
+                  class="card-img-top"
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title">Burgers</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-6 section-content text-center">
+            <h2 class="section-heading">Burger Delights</h2>
+            <p class="section-text">
+              Savor the art of burger perfection at Tasty Burgers, where gourmet
+              grills and savory sliders unite to create an epicurean delight for
+              all burger enthusiasts.
+            </p>
+            <a href="./food.html" class="btn-view-custom">BUY</a>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="https://i.pinimg.com/originals/5c/27/4c/5c274cc803020e389a4ccc45ed9e978b.gif"
+              alt="Pizza"
+              class="about-image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="banner-container">
+      <div class="banner-item">
+        <div class="banner-overlay">
+          <h1 class="banner-heading">Tasty Biryani</h1>
+          <p class="banner-subheading">Delicious Biryani served fresh</p>
+        </div>
+        <img
+          src="https://images.ctfassets.net/wtodlh47qxpt/4qo6xWTWQmjg8ycSRETMU5/649a454a732e77c4cc534524e48bd800/Box_Meals_App_Banner__1440x396px.jpg?w=1366&fit=fill&fm=webp"
+          alt="Biryani Banner"
+          class="banner-image"
+        />
+      </div>
+
+      <div class="banner-item">
+        <div class="banner-overlay">
+          <h1 class="banner-heading">Crispy Fried Chicken</h1>
+          <p class="banner-subheading">
+            Irresistible chicken that melts in your mouth
+          </p>
+        </div>
+        <img
+          src="https://images.ctfassets.net/wtodlh47qxpt/4gztBB8yAvtp6jV7JAuLD/093fddbb77a78a44a4d3d5e066c592de/KFC_Peri_Peri_Banner__1440x396px.jpg?w=1366&fit=fill&fm=webp"
+          alt="Chicken Banner"
+          class="banner-image"
+        />
+      </div>
+    </div>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-6">
+            <img
+              src="https://i.pinimg.com/564x/2d/92/30/2d9230894e0b16a2a631c3c6fa18bb1e.jpg"
+              alt="Pizza"
+              class="about-image"
+            />
+          </div>
+          <div class="col-md-6 section-content text-center">
+            <h2 class="section-heading">Chicken Leg</h2>
+            <p class="section-text">
+              Indulge in our authentic and scrumptious pizzas, baked to
+              perfection in a wood-fired oven. Our pizzas will leave you craving
+              for more.
+            </p>
+            <a href="./food.html" class="btn-view-custom">View</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-6 section-content text-center">
+            <h2 class="section-heading">Super Delicious</h2>
+            <p class="section-text">
+              Savor the art of burger perfection at Tasty Burgers, where gourmet
+              grills and savory sliders unite to create an epicurean delight for
+              all burger enthusiasts.
+            </p>
+            <a href="./food.html" class="btn-view-custom">View</a>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="https://i.pinimg.com/564x/07/6c/1f/076c1f87d86be37d283bfbe33b6cab3a.jpg"
+              alt="Pizza"
+              class="about-image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <div class="banner-container">
+      <div class="banner-item">
+        <div class="banner-overlay">
+          <h1 class="banner-heading">Tasty Biryani</h1>
+          <p class="banner-subheading">Delicious Biryani served fresh</p>
+        </div>
+        <img
+          src="https://images.ctfassets.net/wtodlh47qxpt/Na9oR4t8WKmSjIuy5pg4U/2fef58b44c29bbb4341ed116bac84f44/KFC_Maggi__Banner__1440x396px__2_.jpg?w=988&fit=fill&fm=webp"
+          alt="Biryani Banner"
+          class="banner-image"
+        />
+      </div>
+
+      <div class="banner-item">
+        <div class="banner-overlay">
+          <h1 class="banner-heading">Crispy Fried Chicken</h1>
+          <p class="banner-subheading">
+            Irresistible chicken that melts in your mouth
+          </p>
+        </div>
+        <img
+          src="https://images.ctfassets.net/wtodlh47qxpt/4w2NU51eNqAlF0S4k3YLTB/0d9dd4031fc40bd266a2b4ac49834491/1440_x_396_Value_Burger.jpg?w=988&fit=fill&fm=webp"
+          alt="Chicken Banner"
+          class="banner-image"
+        />
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAeCAYAAAB5c901AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABNSURBVHgB7c9BDQAgAMPAgQ4c4F8KDvABFuBHSe+9LGmZ6SsXWkY52b3yW/M5A+kMpDOQzkA6A+kMpDOQzkA6A+kMpDOQzkA6A+kMpNu9MQhKmC+cDgAAAABJRU5ErkJggg=="
+          alt=""
+        />
+        <div class="row">
+          <div class="col-md-4">
+            <h3>About Us</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              dapibus libero nec dui vehicula, quis euismod quam laoreet.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h3>Contact Us</h3>
+            <p>Email: info@example.com</p>
+            <p>Phone: +1 123 456 7890</p>
+            <p>Address: 1234 Main St, City, Country</p>
+          </div>
+          <div class="col-md-4">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ---------------------------***DONE TILL HERE***--------------------------------- -->
+
+    <!-- ---------------------------****-------------***--------------------------------- -->
+    <!-- Add Bootstrap JS and jQuery script links here -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
+<!-- carousal link  -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  crossorigin="anonymous"
+></script>
+<script src="../Scripts/landing.js"></script>
