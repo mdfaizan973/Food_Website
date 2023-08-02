@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+/*------*/
+.food-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  margin-top: 60px !important;
+}
+
+.food-item {
+  border-radius: 8px;
+  padding: 10px;
+  text-align: start;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.food-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.food-item img:hover {
+  width: 99%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.food-item h5 {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #222;
+}
+.food-item h6 {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #222;
+}
+
+/* with side bar */
+/* Assuming you have a separate CSS file for styling */
+
+/* Overall layout styles */
+.main-container {
+  display: flex;
+  /* Adjust the flex properties as needed */
+}
+
+.sidebar {
+  padding: 20px;
+  width: 20% !important;
+  background-color: #f0f0f0;
+  margin-top: 80px !important;
+  text-align: center;
+  position: sticky;
+  top: 60px;
+  height: 100vh;
+  border-radius: 2px;
+}
+
+/* Style for sidebar heading */
+.sidebar h2 {
+  margin-bottom: 10px;
+}
+
+/* Style for buttons in the sidebar */
+.sidebar button {
+  display: block;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style for the content area */
+.content {
+  flex: 3;
+  padding: 20px;
+  /* Add content area styling here */
+  /* You can set a background color, width, padding, etc. */
+}
+/* Assuming you have a separate CSS file for styling */
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 4px 6px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.sidebar a:hover {
+  background-color: #db3434;
+  color: #fff;
+}
