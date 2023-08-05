@@ -919,8 +919,8 @@ handleredtolog.addEventListener("click", function () {
 createGrid(products);
 function createGrid(products) {
   const grid = document.querySelector(".food-grid");
-
-  products.forEach((product) => {
+  grid.innerHTML = "";
+  products?.forEach((product) => {
     const item = document.createElement("div");
     item.classList.add("food-item");
 
