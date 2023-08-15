@@ -15,6 +15,7 @@ user_name.innerHTML = sortname;
 
 handleredtolog.addEventListener("click", function () {
   sessionStorage.removeItem("cur_user_email");
+  localStorage.removeItem("cart_food_data");
 });
 // --
 // Function to create the cart UI
@@ -112,6 +113,6 @@ function checkout() {
 }
 // Call the function to create the cart UI when the page loads
 
-document.addEventListener("DOMContentLoaded", () => {
-  createCartUI();
-});
+// document.addEventListener("DOMContentLoaded", () => {
+//   createCartUI();
+// });

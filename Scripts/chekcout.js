@@ -12,6 +12,7 @@ user_name.innerHTML = sortname;
 
 handleredtolog.addEventListener("click", function () {
   sessionStorage.removeItem("cur_user_email");
+  localStorage.removeItem("cart_food_data");
 });
 // --
 const cartItemsContainer = document.getElementById("cart-items");
@@ -23,18 +24,23 @@ const cvv = document.querySelector("#cvv");
 
 handlepay.addEventListener("click", function (e) {
   e.preventDefault();
+
   if (cardnumber.value == "" || expiry.value == "" || cvv.value == "") {
     setTimeout(() => {
       swal({
         title: " Oops!",
         text: "You are missing some fields",
       });
-    }, 1200);
+    }, 1300);
   } else {
     setTimeout(() => {
       window.location.href = "../HTML/Donepage.html";
     }, 1500);
   }
+
+  setTimeout(() => {
+    localStorage.removeItem("cart_food_data");
+  }, 2000);
 });
 
 function createCartItem(item) {

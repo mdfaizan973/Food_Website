@@ -3,10 +3,18 @@ let discription_data = JSON.parse(localStorage.getItem("food_cart"));
 let add_cart = JSON.parse(localStorage.getItem("cart_food_data")) || [];
 let modal_text = document.querySelector("#food_name");
 
-let cartData = JSON.parse(localStorage.getItem("cart_food_data"));
+// let cartData = JSON.parse(localStorage.getItem("cart_food_data"));
 const totalcartitems = document.querySelector("#total-cart-item");
-totalcartitems.innerHTML = cartData.length;
+// totalcartitems.innerHTML = cartData.length;
 // showdata
+const cartDataJSON = localStorage.getItem("cart_food_data");
+const cartData = cartDataJSON ? JSON.parse(cartDataJSON) : [];
+
+if (cartData.length === 0) {
+  totalcartitems.innerHTML = 0;
+} else {
+  totalcartitems.innerHTML = cartData.length;
+}
 // --
 const handleredtolog = document.querySelector("#handleredtolog");
 const currentuser = sessionStorage.getItem("cur_user_email");
@@ -17,6 +25,7 @@ let sortname = currentuser.replace(/\@gmail\.com$/, "");
 user_name.innerHTML = sortname;
 
 handleredtolog.addEventListener("click", function () {
+  localStorage.removeItem("cart_food_data");
   sessionStorage.removeItem("cur_user_email");
 });
 // --

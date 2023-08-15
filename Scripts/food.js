@@ -888,9 +888,19 @@ const products = [
     cate: "beveragesAndDesserts",
   },
 ];
-let cartData = JSON.parse(localStorage.getItem("cart_food_data"));
+// let cartData = JSON.parse(localStorage.getItem("cart_food_data"));
 const totalcartitems = document.querySelector("#total-cart-item");
-totalcartitems.innerHTML = cartData.length;
+
+//showing total item  in nava
+const cartDataJSON = localStorage.getItem("cart_food_data");
+const cartData = cartDataJSON ? JSON.parse(cartDataJSON) : [];
+
+if (cartData.length === 0) {
+  totalcartitems.innerHTML = 0;
+} else {
+  totalcartitems.innerHTML = cartData.length;
+}
+
 let lowtohigh = document.querySelector("#lowtohigh");
 let hightolow = document.querySelector("#hightolow");
 let biryani = document.getElementById("biryani");
@@ -912,6 +922,7 @@ let sortname = currentuser.replace(/\@gmail\.com$/, "");
 user_name.innerHTML = sortname;
 
 handleredtolog.addEventListener("click", function () {
+  localStorage.removeItem("cart_food_data");
   sessionStorage.removeItem("cur_user_email");
 });
 // --
